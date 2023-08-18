@@ -1,0 +1,74 @@
+html, body { 
+    margin: 0; 
+    font-family: Arial, Helvetica, sans-serif;
+} 
+body { 
+    background-color: #f1f1f1; 
+    display: flex; 
+    justify-content: center; 
+} 
+ 
+.wrapper { 
+    width: 1200px; 
+    display: flex; 
+    margin: 0 auto; 
+    background-color: aquamarine; 
+} 
+.main { 
+    display: flex; 
+    flex-flow: column; 
+    width: 85%; 
+} 
+.menu { 
+    width: 15%; 
+    background-color: #E7FA41; 
+    padding: 10px 20px 0px; 
+} 
+.header { 
+    background-color: #A8DFFA; 
+    min-height: 150px; 
+} 
+.content { 
+    background-color: white; 
+    min-height: 380px; 
+    padding: 20px; 
+} 
+.footer { 
+    background-color: #ED4C4A;
+    min-height: 150px;
+    padding-left: 30px; 
+}
+
+.medico{
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 80px;
+    display: inline;
+}
+
+.letreiro{
+    display: inline;
+    font-size: 2.8em;
+    color: rgb(4, 4, 163);
+    font-weight: bold;
+
+
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.horarios{
+    text-align: center;
+}
+
+iframe{
+    height: 280px;
+}
+
+.imagem{
+    height: 280px;
+}
